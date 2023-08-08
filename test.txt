@@ -1,8 +1,0 @@
-Str:125
-Dex:107
-Int:162
-Con:55
-App:139
-Pow:102
-Siz?:185
-Edu:182
