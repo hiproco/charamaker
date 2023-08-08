@@ -1,0 +1,8 @@
+Str
+Dex
+Int
+Con
+App
+Pow
+Siz?
+Edu
