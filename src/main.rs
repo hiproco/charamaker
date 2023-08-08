@@ -11,9 +11,9 @@ fn main() -> Result<(), io::Error> {
 }
 
 fn gen_stats<'a, P: AsRef<Path>>(path: P) -> String {
-    let stats = std::fs::read_to_string(path).unwrap();
-    let stats = stats.lines();
-    stats
+    std::fs::read_to_string(path)
+        .unwrap()
+        .lines()
         .map(|stat| {
             format!(
                 "{}:{}\n",
